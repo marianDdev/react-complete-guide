@@ -19,6 +19,9 @@ const ExpenseForm = () => {
           <input type="text" min="2019-01-01" max="2022-12-31" />
         </div>
       </div>
+      <div className="new-expense__actions">
+        <button type="button">Add Expense</button>
+      </div>
     </form>
   );
 };
